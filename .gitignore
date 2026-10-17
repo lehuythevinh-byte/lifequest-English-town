@@ -1,0 +1,17 @@
+# Secrets: NEVER commit your actual Gemini API key.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+dist/
